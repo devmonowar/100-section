@@ -1,0 +1,132 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	color: #4F504F;
+	font-size: 15px;
+}
+a:hover { text-decoration: none }
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #242524;
+}
+.section-passing {
+  padding: 80px 0;
+  text-align: center;
+}
+.section-title {
+  margin-bottom: 60px;
+}
+.section-title h2 {
+	text-transform: capitalize;
+}
+.section-title h2 span {
+  color: #26A65B;
+}
+.single-pricing-box {
+	border: 2px solid #ddd;
+	padding: 20px;
+}
+.single-pricing-box h3 {
+	text-transform: uppercase;
+}
+.pricing-icon {
+	font-size: 60px;
+	margin-bottom: 10px;
+	-webkit-transition: .3s;
+	transition:.3s;
+}
+.single-pricing-box:hover .pricing-icon {
+	color: #26A65B;
+}
+.pricing-icon img {
+	max-width: 85px;
+	opacity:.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+.single-pricing-box:hover .pricing-icon img {
+	max-width: 85px;
+	opacity:1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.pricing-list {
+	text-align: left;
+	margin-bottom: 15px;
+}
+.pricing-list ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-left: 20px;
+}
+.pricing-list ul li {
+  padding: 10px;
+  -webkit-transition: .4s;
+  transition:.4s;
+}
+.pricing-list ul li:hover {
+  padding-left: 15px;
+}
+.pricing-list ul li:before {
+	font-family: fontAwesome;
+	content: "\f00c";
+	color: #26A65B;
+	padding-right: 15px;
+}
+.pricing-list ul li.off:before {
+	font-family:fontAwesome;
+	content:"\f00d";
+	color:#EE2B2B;
+}
+.single-pricing-box h3.pricing-count {
+	text-transform: none;
+	
+}
+.order-btn {
+	color: #717171;
+	border: 1px solid #5FBD86;
+	padding: 10px 20px;
+	border-radius: 30px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.order-btn:hover {
+	color: #000;
+  -webkit-transition: .4s;
+  transition:.4s;
+  background-color: #38965F;
+  color:#fff;
+}
+.single-pricing-box:hover {
+	border-color: #26A65B;
+	box-shadow: 0 0 30px #D0D0D0;
+  -webkit-transition: .4s;
+  transition:.4s;
+}
