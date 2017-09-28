@@ -50,18 +50,18 @@ section.section-padding {
   content: "";
   position: absolute;
   background: #ddd;
-  width: 200px;
+  width: 60px;
   height: 5px;
   left: 0;
   bottom: 0;
   z-index: -1;
 }
-.section-title h2::before {
+.section-title h2:before {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 190px;
+  width: 55px;
   height: 5px;
   background: #14ADF3;
   z-index: 999;
@@ -73,11 +73,13 @@ section.section-padding {
 .staff-meta {
 	color: #d1d1d1;
 	font-size: 14px;
-	margin-top: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .staff-meta h2 {
-  color: #333;
-  text-transform: uppercase;
+	color: #333;
+	text-transform: uppercase;
+	margin-bottom: 5px;
 }
 .staff-list .owl-nav {
 	position: absolute;
@@ -93,6 +95,7 @@ section.section-padding {
 	font-size: 20px;
 	line-height: 40px;
 	margin-left: 10px;
+	-webkit-transition: .5s;
 	transition:.5s;
 }
 .staff-list .owl-nav div:hover {
