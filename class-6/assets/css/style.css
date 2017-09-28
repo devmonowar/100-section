@@ -31,9 +31,6 @@ body {
 }
 a:hover { text-decoration: none }
 
-
-
-
 h1, h2, h3, h4, h5, h6 {
   color: #242524;
 }
@@ -109,7 +106,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .single-pricing-box h3.pricing-count {
 	text-transform: none;
-	
 }
 .order-btn {
 	color: #717171;
