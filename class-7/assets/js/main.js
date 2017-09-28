@@ -8,7 +8,7 @@
 			margin:20,
 			loop:true,
 			nav:true,
-			tavText:["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"]
+			navText:["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"]
 			
 		})
 
