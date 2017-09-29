@@ -1,0 +1,124 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+  color: #555;
+  font-size: 15px;
+}
+a:hover { text-decoration: none }
+
+
+
+.section-padding {
+  padding: 80px 0;
+  background: #f3f3f3;
+}
+.section-title {
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-border {
+  text-align: center;
+}
+.section-border span {
+	width: 50px;
+	height: 5px;
+	background: #6AAF08;
+	display: inline-block;
+	border-radius: 4px;
+}
+.section-border span.black-border {
+  background: #222;
+  width: 30px;
+  margin: 0 5px;
+}
+.single-testimonial-item {
+  padding: 20px;
+  border: 2px solid #ddd;
+  position: relative;
+  padding-left: 90px;
+  box-shadow: 0 0 10px #D0D0D0;
+}
+.single-testimonial-item:before{
+	content:"\f10e";
+	font-family:fontAwesome;
+}
+.single-testimonial-item p {
+  font-style: italic;
+}
+.single-testimonial-item h3 {
+	margin-top: 15px;
+}
+.single-testimonial-item h3 span {
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+  color: #b0b0b0;
+}
+.client-testmonial-carosel .owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.client-testmonial-carosel .owl-dots div {
+  width: 20px;
+  height: 5px;
+  background: #6AAF08;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.client-testmonial-carosel .owl-dots .owl-dot.active {
+  width: 30px;
+  background: #333;
+}
+
+.single-testimonial-item::before {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: -15px;
+  color: #6AAF08;
+}
+.single-testimonial-item::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 70%;
+  left: 57px;
+  top: 15%;
+  background: #ddd;
+}
+
+
+
+
+
+
+
