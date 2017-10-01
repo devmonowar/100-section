@@ -1,0 +1,84 @@
+/* Base CSS */
+
+
+@font-face {
+  font-family: 'code-bold';
+  src: url('../fonts/code-bold.eot');
+  src: url('../fonts/code-bold.eot') format('embedded-opentype'), url('../fonts/code-bold.woff2') format('woff2'), url('../fonts/code-bold.woff') format('woff'), url('../fonts/code-bold.ttf') format('truetype'), url('../fonts/cod-bold.svg#code-bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code-Light';
+  src: url('../fonts/Code-Light.eot');
+  src: url('../fonts/Code-Light.eot') format('embedded-opentype'), url('../fonts/Code-Light.woff2') format('woff2'), url('../fonts/Code-Light.woff') format('woff'), url('../fonts/Code-Light.ttf') format('truetype'), url('../fonts/Code-Light.svg#code-light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: normal;
+	font-family: 'code-bold', sans-serif;
+}
+body {
+	font-family: 'Karla', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.homepage-slider-wrap {background-image:url(../img/hero-bg.jpg)}
+.product-bg-1 {background-image:url(../img/product-bg-1.png)}
+.product-bg-2 {background-image:url(../img/product-bg-2.png)}
+.product-bg-3 {background-image:url(../img/product-bg-3.png)}
+.product-bg-4 {background-image:url(../img/product-bg-4.png)}
+.product-bg-5 {background-image:url(../img/product-bg-5.png)}
+.product-bg-6 {background-image:url(../img/product-bg-6.png)}
+.product-bg-7 {background-image:url(../img/product-bg-7.png)}
+.product-bg-8 {background-image:url(../img/product-bg-8.png)}
+.product-bg-9 {background-image:url(../img/product-bg-9.png)}
+.product-bg-10 {background-image:url(../img/product-bg-10.png)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
