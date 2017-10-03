@@ -49,16 +49,16 @@ body, html {
 a:hover { text-decoration: none }
 
 .homepage-slider-wrap {background-image:url(../img/hero-bg.jpg)}
-.product-bg-1 {background-image:url(../img/product-bg-1.png)}
-.product-bg-2 {background-image:url(../img/product-bg-2.png)}
-.product-bg-3 {background-image:url(../img/product-bg-3.png)}
-.product-bg-4 {background-image:url(../img/product-bg-4.png)}
-.product-bg-5 {background-image:url(../img/product-bg-5.png)}
-.product-bg-6 {background-image:url(../img/product-bg-6.png)}
-.product-bg-7 {background-image:url(../img/product-bg-7.png)}
-.product-bg-8 {background-image:url(../img/product-bg-8.png)}
-.product-bg-9 {background-image:url(../img/product-bg-9.png)}
-.product-bg-10 {background-image:url(../img/product-bg-10.png)}
+.product-bg-1 {background-image:url(../img/product-bg-1.png);  background-color: #f5efee;}
+.product-bg-2 {background-image:url(../img/product-bg-2.png);  background-color: #f3ebeb;}
+.product-bg-3 {background-image:url(../img/product-bg-3.png);  background-color: #eff3f3;}
+.product-bg-4 {background-image:url(../img/product-bg-4.png);  background-color: #f3f2ec;}
+.product-bg-5 {background-image:url(../img/product-bg-5.png);  background-color: #F6EFEF;}
+.product-bg-6 {background-image:url(../img/product-bg-6.png);  background-color: #f1f6f3;}
+.product-bg-7 {background-image:url(../img/product-bg-7.png);  background-color: #f1f5f5;}
+.product-bg-8 {background-image:url(../img/product-bg-8.png);  background-color: #f1f5f2;}
+.product-bg-9 {background-image:url(../img/product-bg-9.png);  background-color: #f4edf5;}
+.product-bg-10 {background-image:url(../img/product-bg-10.png);  background-color: #f1f0eb;}
 .header-top-area {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -175,7 +175,6 @@ a:hover { text-decoration: none }
 }
 .single-product-item {
   width: 18%;
-  background-color: #F6EFEF;
   background-repeat: no-repeat;
   background-position:center bottom;
   height: 300px;
