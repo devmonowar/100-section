@@ -45,11 +45,9 @@ a:hover { text-decoration: none }
 .blog-featured-content img {
   width: 100%;
 }
+
 .single-blog-item {
   margin-bottom: 120px;
-}
-.big-margin {
-	margin-bottom: 80px;
 }
 .single-blog-item h2 a {
   color: #626262;
@@ -67,6 +65,9 @@ a:hover { text-decoration: none }
 }
 .blog-content {
   margin-bottom: 30px;
+}
+.big-blog-box .blog-featured-content {
+	margin-bottom: 95px;
 }
 .blog-content p:last-child {
   margin: 0;

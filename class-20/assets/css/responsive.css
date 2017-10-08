@@ -6,9 +6,6 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- .big-margin {
-	margin-bottom: 0;
-}
  .main-menu ul li {
 	padding-left: 60px;
 }
@@ -34,11 +31,11 @@
 	padding: 15px 0;
 	font-size:12px;
 }
-.big-margin {
-	margin-bottom: 0;
+.big-blog-box .blog-featured-content {
+	margin-bottom: 30px;
 }
 .single-blog-item {
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 }
 .load-more-btn a {
 	font-size: 15px;
