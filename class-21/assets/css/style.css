@@ -38,6 +38,11 @@ a:hover { text-decoration: none }
   color: #333;
   display: inline-block;
   padding: 25px 0;
+  -webkit-transition: .3s;
+  transition:.3s;
+}
+.header-area h3 a:hover {
+  color: #218AE6;
 }
 .header-area ul {
   margin: 0;
@@ -53,6 +58,8 @@ a:hover { text-decoration: none }
   padding-right: 0;
   display: block;
   text-transform:uppercase;
+  -webkit-transition: .3s;
+  transition:.3s;
 }
 .header-area ul li:hover a {
   color: #218AE6;
@@ -71,14 +78,20 @@ a:hover { text-decoration: none }
 	font-weight:100;
 }
 .slide-btn {
-  background: #FFBE2C;
-  color: #000;
-  text-transform: uppercase;
-  font-size: 12px;
-  display: inline-block;
-  padding: 10px 25px;
-  margin-top: 10px;
-  border-radius: 2px;
+	background: #FFBE2C;
+	text-transform: uppercase;
+	font-size: 12px;
+	display: inline-block;
+	padding: 10px 25px;
+	margin-top: 10px;
+	border-radius: 2px;
+	color: #333;
+  -webkit-transition: .3s;
+  transition:.3s;
+}
+.slide-btn:hover {
+	color: #218AE6;
+	font-weight:400;
 }
 .slide-btn i {
 	margin-left: 10px;
