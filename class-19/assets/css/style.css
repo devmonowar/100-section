@@ -1,16 +1,4 @@
-/* Base CSS */
-.alignleft {
-    float: left;
-    margin-right: 15px;
-}
-.alignright {
-    float: right;
-    margin-left: 15px;
-}
-.aligncenter {
-    display: block;
-    margin: 0 auto 15px;
-}
+
 a:focus { outline: 0 solid }
 img {
     max-width: 100%;
@@ -31,10 +19,7 @@ body {
   line-height: 1.7142;
 }
 a:hover { text-decoration: none }
-
 .blog-meta, .blog-readmore-btn {font-family: 'Ubuntu', sans-serif;font-weight:300}
-
-
 .logo {
   padding: 70px 0;
 }
@@ -63,6 +48,9 @@ a:hover { text-decoration: none }
 .single-blog-item {
   margin-bottom: 120px;
 }
+.big-margin {
+	margin-bottom: 80px;
+}
 .single-blog-item h2 a {
   color: #626262;
 }
@@ -89,7 +77,8 @@ a:hover { text-decoration: none }
   margin-bottom:120px;
 }
 .newsletter-area h2 {
-  margin-bottom: 50px;
+	margin-bottom: 50px;
+	color: #333;
 }
 .newsletter-form {
   width: 325px;
@@ -122,7 +111,6 @@ a:hover { text-decoration: none }
 	padding: 35px 0;
 	margin-top: 90px;
 }
-
 .footer-area ul {
   margin: 0;
   padding: 0;
@@ -134,12 +122,12 @@ a:hover { text-decoration: none }
 .footer-area ul li a{
 	color:#000;
 }
-.footer-left li a {
+.footer-area ul li a i {
+	color: #626262;
+}
+.footer-menu li a {
   padding-right: 10px;
 }
-.social-icon a {
+.social-icon li a {
   padding-left: 10px;
-}
-.big-margin {
-	margin-bottom: 80px;
 }
