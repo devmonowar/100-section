@@ -58,8 +58,6 @@ a:hover { text-decoration: none }
   background-size: cover;
   position: relative;
 }
-.service-box-bg {
-}
 .service-box-bg h3 {
 	position: absolute;
 	background: #F97230;
@@ -70,6 +68,7 @@ a:hover { text-decoration: none }
 	bottom: -27px;
 	margin: 0;
 	padding: 15px 0;
+	color: #fff;
 }
 .service-content {
 	text-align: center;
