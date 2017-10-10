@@ -1,0 +1,107 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700');
+
+input:focus, textarea:focus, button:focus, a:focus { outline: 0 solid }
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+	border: none;
+	background: #f5f5f5;
+	padding: 15px;
+	margin-bottom:15px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+  padding: 80px 0;
+}
+.white-box {
+	padding: 50px 30px;
+	box-shadow: 0 0 10px #CCCCCC;
+}
+.white-box h4 {
+	padding-bottom: 30px;
+	color: #666;
+	font-size: 18px;
+}
+.contect-form input {
+	width:100%;
+}
+.contect-form textarea {
+	height: 150px;
+	resize: none;
+}
+.contect-form input[type="submit"] {
+	background: #4DAEFE;
+	padding: 10px 20px;
+	border: none;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 3px;
+	font-size: 13px;
+}
+.color-box {
+	background: #4DAEFE;
+	color: #fff;
+	min-height: 425px;
+	padding: 50px 30px;
+	font-weight: 300;
+}
+.color-box h4 {
+	padding-bottom: 30px;
+}
+.color-box a {
+  color: #fff;
+}
+.contect-info {
+  position: relative;
+  margin-bottom: 25px;
+  padding-left: 45px;
+}
+.contect-info i.fa {
+	position: absolute;
+	left: 0;
+	top: 3px;
+	font-size: 18px;
+}
+.social-icons a {
+	color: #666;
+	width: 35px;
+	height: 35px;
+	background: #fff;
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 50%;
+	margin-left: 5px;
+	transition:.4s;
+}
+.social-icons a:hover {
+	color: #4DAEFE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
