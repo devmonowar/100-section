@@ -17,16 +17,14 @@ h6 {
 body {
 
 }
+
 a:hover { text-decoration: none }
 
-==================
-.timeline ul {
-	list-style: none;
-}
-.timeline ol {
-	list-style: none;
-}
-.timeline ul {
+/* =========================== */
+
+
+
+.timeline ul, .timeline ol {
 	list-style: none;
 }
 
@@ -371,19 +369,4 @@ a:hover { text-decoration: none }
     transform: translateX(0%);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
