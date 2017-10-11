@@ -59,7 +59,7 @@ a:hover { text-decoration: none }
 .color-box {
 	background: #4DAEFE;
 	color: #fff;
-	min-height: 425px;
+	min-height: 500px;
 	padding: 50px 30px;
 	font-weight: 300;
 }
@@ -71,7 +71,7 @@ a:hover { text-decoration: none }
 }
 .contect-info {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   padding-left: 45px;
 }
 .contect-info i.fa {
