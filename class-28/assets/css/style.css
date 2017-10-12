@@ -1,0 +1,122 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Rajdhani', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.footer-area {
+  background: #14ADF3;
+  padding: 80px 0;
+}
+.footer-area, .footer-area a {
+  color: #fff;
+}
+.footer-wid h3 {
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+.social-link a {
+	display: inline-block;
+	padding: 8px;
+	margin-top: 15px;
+	font-size: 18px;
+}
+.footer-wid ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contact-form h3 {
+	font-size: 16px;
+}
+.contact-info {
+	position: relative;
+	padding-left: 29px;
+	padding-bottom: 6px;
+	font-size: 90%;
+}
+.contact-info i.fa {
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+.footer-subscribtion-form h4 {
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.footer-subscribtion-form input[type="email"] {
+	color: #333;
+	padding: 7px 10px;
+	width: 73%;
+}
+.footer-subscribtion-form input[type="submit"] {
+	width: 25%;
+	color: #14ADF3;
+	border: none;
+	padding: 7px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.footer-subscribtion-form {
+	margin-top: 30px;
+}
+.footer-subscribtion-form form {
+  margin-bottom: 10px;
+}
+.footer-subscribtion-form p {
+	font-size: 90%;
+}
+
+.copyright-area, .copyright-area a {
+  color: #777;
+  padding: 20px 0;
+}
+.copyright-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.copyright-area ul li {
+  display: inline-block;
+}
+.copyright-area ul li:after {
+  content: "I";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.copyright-area ul li:last-child::after {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
