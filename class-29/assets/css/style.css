@@ -1,0 +1,121 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+  padding: 80px 0;
+}
+.projects-title {
+  margin-bottom: 40px;
+}
+.projects-title ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.projects-title ul li {
+	display: inline-block;
+	padding-right: 15px;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+.projects-title ul li.active {
+  color:#00DDD6;
+}
+
+.single-projects-item {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-color: #777;
+  margin-bottom: 15px;
+}
+.single-projects-item.projects-bg-2,
+.single-projects-item.projects-bg-4,
+.single-projects-item.projects-bg-5 {
+	height:515px;
+}
+
+.projects-bg-1{background-image:url(../img/bg1.jpg)}
+.projects-bg-2{background-image:url(../img/bg2.jpg)}
+.projects-bg-3{background-image:url(../img/bg3.jpg)}
+.projects-bg-4{background-image:url(../img/bg4.jpg)}
+.projects-bg-5{background-image:url(../img/bg5.jpg)}
+.projects-bg-6{background-image:url(../img/bg6.jpg)}
+.projects-bg-7{background-image:url(../img/bg7.jpg)}
+.projects-bg-8{background-image:url(../img/bg8.jpg)}
+.projects-bg-9{background-image:url(../img/bg9.jpg)}
+
+.row.projects-list {
+  margin-right: -7.5px;
+  margin-left: -7.5px;
+}
+.row.projects-list .col-md-4 {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+.projects-hover a, .projects-hover span {
+	color: #00DDD6;
+}
+.projects-hover {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  opacity:0;
+  transition:.5s;
+}
+.single-projects-item:hover .projects-hover {opacity:1;}
+.projects-hover:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #000;
+  opacity: .6;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.projects-hover a {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.projects-hover h4 {
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+	color: #fff;
+	margin: 0;
+	text-transform: uppercase;
+}
+.projects-hover h4 span {
+	font-size: 80%;
+	display: block;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+
+
+
+
+
+
