@@ -1,0 +1,118 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+  font-size: 16px;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.fullwidth-bg-area {
+	background-image: url(../img/2.jpg);
+	margin: 50px 0;
+}
+.margin-minus {
+  margin: -50px 0;
+}
+.dark-bg {
+	background: #2B2F41;
+	color: #fff;
+	padding: 100px 45px;
+}
+.boxed-content {
+	padding: 30px 60px;
+	display: block;
+	position: relative;
+}
+.boxed-content h2 {
+  font-size: 45px;
+}
+.author-name {
+  position: relative;
+  font-size: 20px;
+  margin-top: 25px;
+  padding-left:35px;
+}
+.author-name span {
+	font-size: 70%;
+	opacity: .2;
+	font-weight: 300;
+	font-style: italic;
+}
+.author-name::before {
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 2px;
+	background: #fff;
+	left: 0;
+	top: 50%;
+	margin-top: -1px;
+}
+.borderd-btn {
+	display: inline-block;
+	color: #fff;
+	border: 2px solid #CDA973;
+	padding: 10px 20px;
+}
+.margin-minus .borderd-btn {
+	margin-top:30px;
+	margin-left: 60px;
+}
+.boxed-content:before {
+  position: absolute;
+  content: "";
+  width: 70px;
+  height: 70px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  left: -15px;
+  top: 0;
+}
+.boxed-content::after {
+	position: absolute;
+	content: "";
+	width: 70px;
+	height: 70px;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	right: -60px;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
