@@ -1,0 +1,91 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.single-slide-item {
+	background-image:url(../img/2.jpg);
+	background-size: cover;
+  height: 600px;
+  margin-bottom: 200px;
+  background-position:center;
+  background-color:#ddd;
+  position:relative;
+}
+.slide-text-area {
+  position: absolute;
+  width:100%;
+  left:0;
+  bottom:0;
+}
+.slide-text {
+	padding: 60px 150px 60px 0;
+	color: #fff;
+  position: relative;
+  z-index:2;
+}
+.slide-text h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.slide-text p {
+  font-size: 16px;
+  color:#A4D9FE;
+}
+.boxed-btn {
+  background: #3E4043;
+  color: #fff;
+  padding: 16px 25px;
+  display: inline-block;
+  margin-top: 35px;
+  text-transform: uppercase;
+}
+.slide-text:before {
+  position: absolute;
+  content: "";
+  background: #1784C7;
+  width: 1000%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  z-index:-1;
+}
+.slide-text::after {
+    position: absolute;
+	content:"";
+    right: -25px;
+    top:30px;
+    width: 0px;
+    height: 0px;
+    border-left: 25px solid #1784C7;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+	z-index:999;
+}
+.slide-text-2:before {
+  opacity:.6;
+	
+}
+.slide-text-2::after {
+  opacity:.6;
+}
+
+
+
