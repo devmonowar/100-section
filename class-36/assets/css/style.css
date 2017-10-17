@@ -1,0 +1,177 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i,900');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+body {
+  background: #F5F6FA;
+}
+
+
+.promo-box-wrap {
+  margin: -15px;
+  overflow: hidden;
+}
+.single-promo-box {
+  height: 350px;
+  display: table;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.promo-box-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 50px;
+	transition:.5s;
+}
+.single-promo-box:nth-child(2) {
+  background: #DA879B;
+}
+.single-promo-box:nth-child(3) {
+  background: #7BBACF;
+}
+.single-promo-box:nth-child(2),
+.single-promo-box:nth-child(3) {
+  color:#fff;
+}
+.single-promo-box:nth-child(2) h3:after {
+  background:#fff;
+}
+.single-promo-box:nth-child(3) h3:after {
+  background:#fff;
+}
+.single-promo-box:nth-child(4) h3:after {
+  background:#7BBACF;
+}
+.promo-icon:before {
+	font-size: 74px;
+	color:#D8889B;
+}
+
+.single-promo-box:nth-child(2) .promo-icon:before {
+	color:#DA879B;
+	color:#fff;
+}
+.single-promo-box:nth-child(3) .promo-icon:before {
+	color:#DA879B;
+	color:#fff;
+}
+.single-promo-box:nth-child(4) .promo-icon:before {
+	color:#DA879B;
+	color:#7BBACF;
+}
+.single-promo-box h3 {
+  text-transform: capitalize;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.single-promo-box h3:after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #DA879B;
+  bottom: 0;
+  left: 50%;
+  margin-left: -25px;
+}
+.boxed-btn {
+	display: inline-block;
+	background: #DA879B;
+	padding: 15px 50px;
+	border-radius: 40px;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+	opacity: 0;
+	visibility: hidden;
+	transition:.5s;
+}
+.single-promo-box:nth-child(2) .boxed-btn {
+	background: #fff;
+	color: #DA879B;
+}
+.single-promo-box:nth-child(3) .boxed-btn {
+	background: #fff;
+	color: #7BBACF;
+}
+.single-promo-box:nth-child(4) .boxed-btn {
+	background: #7BBACF;
+	color: #fff;
+}
+
+
+.single-promo-box:hover .promo-box-tablecell{
+	padding-top: 0;
+}
+
+.single-promo-box:hover .boxed-btn{
+	opacity: 1;
+	visibility: visible;
+}
+
+
+.right-side-content {
+  padding: 130px 50px;
+}
+.section-title {
+	color: #45484D;
+}
+.section-title h3 {
+  color: #7BBACF;
+  text-transform: capitalize;
+}
+.section-title h2 {
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.right-side-content h4 {
+  line-height: 1.8;
+  font-size: 20px;
+  color: #45484D;
+}
+.right-side-content p {
+  color: #848484;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.section-btn {
+	margin-top: 60px;
+}
+.right-side-content .boxed-btn {
+	opacity: 1;
+	visibility: visible;
+}
+.borderd-btn {
+	display: inline-block;
+	border: 2px solid #7BBACF;
+	padding: 15px 50px;
+	border-radius: 40px;
+	font-weight: 900;
+	color: #7BBACF;
+	text-transform: uppercase;
+	margin-left: 15px;
+}
+
+
