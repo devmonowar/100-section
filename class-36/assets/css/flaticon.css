@@ -1,0 +1,71 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 09/10/2017 12:45
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon.eot");
+  src: url("../fonts/flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon.woff") format("woff"),
+       url("../fonts/flaticon.ttf") format("truetype"),
+       url("../fonts/flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-001-origami:before { content: "\f100"; }
+.flaticon-002-hammer:before { content: "\f101"; }
+.flaticon-003-stapler:before { content: "\f102"; }
+.flaticon-004-paint-tube:before { content: "\f103"; }
+.flaticon-005-sewing:before { content: "\f104"; }
+.flaticon-006-crayons:before { content: "\f105"; }
+.flaticon-007-button:before { content: "\f106"; }
+.flaticon-008-hot-glue:before { content: "\f107"; }
+.flaticon-009-cutter:before { content: "\f108"; }
+.flaticon-010-glue:before { content: "\f109"; }
+.flaticon-011-paint-brush-1:before { content: "\f10a"; }
+.flaticon-012-scissors:before { content: "\f10b"; }
+.flaticon-013-safety-pin:before { content: "\f10c"; }
+.flaticon-014-paint-brush:before { content: "\f10d"; }
+.flaticon-015-tape:before { content: "\f10e"; }
+.flaticon-016-pencil:before { content: "\f10f"; }
+.flaticon-017-pen:before { content: "\f110"; }
+.flaticon-018-paint-roller:before { content: "\f111"; }
+.flaticon-019-paint-spray:before { content: "\f112"; }
+.flaticon-020-driller:before { content: "\f113"; }
+.flaticon-021-paint-bucket:before { content: "\f114"; }
+.flaticon-022-needle:before { content: "\f115"; }
+.flaticon-023-ink:before { content: "\f116"; }
+.flaticon-024-mannequin:before { content: "\f117"; }
+.flaticon-025-paint-palette:before { content: "\f118"; }
+.flaticon-026-measuring-tape:before { content: "\f119"; }
+.flaticon-027-yarn:before { content: "\f11a"; }
+.flaticon-028-box:before { content: "\f11b"; }
+.flaticon-029-school-material:before { content: "\f11c"; }
+.flaticon-030-screwdriver:before { content: "\f11d"; }
+.flaticon-031-set-square:before { content: "\f11e"; }
+.flaticon-032-paper:before { content: "\f11f"; }
+.flaticon-033-newspaper:before { content: "\f120"; }
+.flaticon-034-fabric:before { content: "\f121"; }
+.flaticon-035-spatula:before { content: "\f122"; }
+.flaticon-036-wool:before { content: "\f123"; }
+.flaticon-037-shirt:before { content: "\f124"; }
+.flaticon-038-bamboo:before { content: "\f125"; }
+.flaticon-039-hand-saw:before { content: "\f126"; }
+.flaticon-040-push-pin:before { content: "\f127"; }
