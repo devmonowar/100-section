@@ -1,0 +1,172 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700,900');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+
+
+
+body, html {
+  height: 100%;
+  color: #42413E;
+}
+.welcome-area {
+	height: 100%;
+	position: relative;
+	background-image: url(../img/161_spinningindie.jpg);
+	background-position: center;
+	background-color: #999;
+	background-size: cover;
+	z-index:1;
+}
+.welcome-area::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: .7;
+}
+.logo img {
+  max-width: 45px;
+  padding-right: 7px;
+}
+.logo a {
+  color: #EF4043;
+  font-size: 20px;
+  font-weight: 800;
+}
+.logo h1 {
+  margin: 0;
+}
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.mainmenu ul li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  padding: 11px 24px;
+  color: #42413E;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: block;
+  border-radius: 50px;
+  font-weight: 500;
+}
+.mainmenu ul li.borderd a {
+  color: #EF4043;
+  border: 1px solid;
+}
+.header-area {
+  padding: 15px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.copyright-area {
+	background: #42413E;
+	padding: 10px 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: 85%;
+}
+.copyright-area, .copyright-area a {
+  color: #ccc;
+}
+.copyright-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.copyright-area ul li {
+  display: inline;
+}
+.copyright-area ul li a {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+
+.hero-area-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.hero-area-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.hero-text h2 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.hero-text {
+  font-size: 20px;
+  font-weight: 300;
+}
+.email-subscribe-form {
+  margin-top: 40px;
+  font-size: 14px;
+  max-width:500px;
+}
+.email-subscribe-form input[type=submit] {
+  background: #EF4043;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.email-subscribe-form input[type="email"] {
+	background: #fff;
+	border: none;
+	padding: 10px 20px;
+	color: #42413E;
+	border-radius: 5px;
+	width: 58%;
+	margin-right: 2%;
+}
+.social-icon a {
+  color: #42413E;
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
