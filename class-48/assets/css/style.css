@@ -1,0 +1,126 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+a:hover {
+    text-decoration: none
+}
+
+
+
+
+
+body {
+  color: #707070;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.section-padding {
+  padding: 100px 0;
+}
+.pricing-table {
+  overflow: hidden;
+  padding: 30px 20px;
+}
+.single-pricing-box {
+  float: left;
+  width: 33.333%;
+  position: relative;
+  box-shadow: 0 0 10px #ddd;
+  background: #fff;
+  z-index: 1;
+  margin-top: 30px;
+}
+.pricing-header {
+  padding: 40px;
+}
+.pricing-header h4 {
+  color: #888888;
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.pricing-header h1 {
+  color: #333333;
+  font-weight: 400;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.pricing-content {
+  padding: 60px;
+}
+.pricing-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pricing-content ul li {
+  line-height: 1.9;
+}
+.pricing-btn {
+  display: inline-block;
+  color: #FC103C;
+  border: 1px solid #FC103C;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-top: 35px;
+  font-weight: 600;
+}
+.active .pricing-header {
+  background: #FC103C;
+  color: #fff;
+}
+.active .pricing-header h4, .active .pricing-header h1 {
+  color: #fff;
+}
+.single-pricing-box.active {
+  margin-top: -28px;
+  margin-left: -.5%;
+  margin-right: -.5%;
+  width: 34.3333%;
+  z-index: 2;
+  margin-top: 0;
+}
+.single-pricing-box.active:after {
+  content: "Featured";
+  top: 20px;
+  right: -36px;
+  position: absolute;
+  background: #fff;
+  color: #FC103C;
+  padding: 5px 50px;
+  font-size: 14px;
+  transform: rotate(45deg);
+}
+.active .pricing-btn {
+  color: #fff;
+  background: #FC103C;
+}
+.active .pricing-content {
+  padding: 70px 60px;
+}
+
+
+
+
+
+
+
+
+
+
