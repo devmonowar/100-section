@@ -1,0 +1,94 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700,900');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+
+
+body {
+  font-size: 16px;
+  background:#2ECC71;
+}
+.section-padding {
+  padding: 50px 0;
+}
+.custom-tab {
+  background: #9b59b6;
+  color: #fff;
+  padding: 39px;
+}
+.tab-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tab-list li {
+	display: inline-block;
+	padding-right: 3px;
+}
+.tab-list li:list-child {
+	padding-right: 0;
+}
+.tab-list li a {
+	display: block;
+	color: #fff;
+	font-weight: 700;
+	padding: 15px 43px;
+	text-transform: capitalize;
+	background: #e74c3c;
+	font-size: 20px;
+	position: relative;
+}
+.tab-list li.active a {
+	background: #fff;
+	color: #333333;
+}
+.tab-list li a::after {
+	position: absolute;
+	content: "";
+	width: 50px;
+	height: 20px;
+	background: #9B59B6;
+	right: -20px;
+	top: 0px;
+	transform: rotate(45deg);
+}
+.tab-content {
+	padding: 30px 20px;
+	background: #fff;
+	color: #333;
+	margin-right: 4px;
+}
+.tab-content h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
