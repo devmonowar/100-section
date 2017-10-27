@@ -1,0 +1,152 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700,900');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+
+.listing-bg-1 {background-image:url(../img/1.jpg)}
+.listing-bg-2 {background-image:url(../img/2.jpg)}
+.listing-bg-3 {background-image:url(../img/3.jpg)}
+.listing-bg-4 {background-image:url(../img/4.jpg)}
+.listing-bg-5 {background-image:url(../img/5.jpg)}
+.listing-bg-6 {background-image:url(../img/6.jpg)}
+.listing-bg-7 {background-image:url(../img/7.jpg)}
+
+
+.section-padding {
+  padding: 50px 0;
+  overflow-x:hidden;
+}
+.listing-carosel-wraper {
+  overflow-x:hidden;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 18px;
+	color:#888888;
+}
+.section-title h2 {
+  text-transform: capitalize;
+  font-weight:400;
+  color:#222222;
+}
+.section-title p span {
+	color: #FC103C;
+}
+.single-listing-iteme {
+  height: 300px;
+  background-color: #ddd;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.listing-hover {
+  position: absolute;
+  left: 10%;
+  bottom: 25px;
+  width: 80%;
+  color: #ADB6B7;
+  font-size: 18px;
+}
+.listing-hover h3 {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 25px;
+	color: #fff;
+	margin-bottom: 8px;
+}
+.single-listing-iteme:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000;
+  z-index: -1;
+  opacity: .2;
+}
+.borderd-btn {
+  color: #fff;
+  text-transform: capitalize;
+  border: 1px solid;
+  display: inline-block;
+  padding: 7px 25px;
+  border-radius: 50px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.borderd-btn:hover {
+  color: #FC103C;
+}
+.listing-carosel.owl-carousel .owl-stage-outer {
+	overflow: visible;
+}
+.listing-carosel .owl-dots .owl-dot {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid #BFBFBF;
+}
+.listing-carosel .owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot.active {
+}
+.owl-dot {
+}
+.listing-carosel .owl-dots .owl-dot.active {
+  background: #bfbfbf;
+}
+.listing-carosel.owl-carousel {
+	position: 
+}
+.listing-carosel.owl-carousel::before {
+	position: absolute;
+	content: "";
+	width: 1000%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #fff;
+	z-index: 2;
+	margin-left: -1000%;
+	opacity: .7;
+}
+.listing-carosel.owl-carousel::after {
+	position: absolute;
+	content: "";
+	width: 1000%;
+	height: 100%;
+	right: 0;
+	top: 0;
+	background: #fff;
+	z-index: 2;
+	margin-right: -1000%;
+	opacity: .7;
+}
+
+
+
