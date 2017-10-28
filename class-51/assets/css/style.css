@@ -1,0 +1,111 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700,900');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.single-boxed-item {
+  background-image:url(../img/item-1.jpg);
+  background-size: cover;
+  background-color: #333;
+  background-position: center;
+  height: 600px;
+  z-index: 1;
+  position:relative;
+ }
+.boxed-bg-2 {background-image:url(../img/item-2.jpg)}
+.boxed-bg-3 {background-image:url(../img/item-3.jpg)}
+.boxed-bg-4 {background-image:url(../img/item-4.jpg)}
+.boxed-bg-5 {background-image:url(../img/item-5.jpg)}
+.section-padding {
+  padding: 80px 0;
+}
+.section-title {
+	margin-bottom: 50px;
+	color: #747474;
+}
+.section-title h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 25px;
+}
+.row.no-padding {
+  margin: 0;
+}
+.row.no-padding .col-md-4 {
+  padding: 0;
+}
+.boxed-item-hover {
+	position: absolute;
+	width: 88%;
+	height: 90%;
+	left: 6%;
+	top: 5%;
+	z-index: 1;
+	opacity: 0;
+	visibility: hidden;
+	transition: .4s;
+}
+.single-boxed-item:hover .boxed-item-hover {
+	opacity: 1;
+	visibility: visible;
+}
+.boxed-item-hover::after {
+	position: absolute;
+	content: "";
+	background: #000;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	opacity: .7;
+}
+.boxed-item-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.boxed-item-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+}
+.boxed-item-tablecell h4 {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 7px;
+	margin-top: 17px;
+}
+.half-size {
+  height: 300px;
+}
+.light-box i.fa {
+	color: #3EA000;
+}
+
+
+
+
+
+
+
+
+
