@@ -1,0 +1,134 @@
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+
+.section-padding {
+  padding: 50px 0;
+}
+.section-title h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #212121;
+}
+.section-title {
+  margin-bottom: 60px;
+}
+.single-testimonial {
+  text-align: center;
+  padding:40px;
+}
+.testimonial-top h3 {
+  display: inline-block;
+  padding-top: 30px;
+  text-transform: uppercase;
+  padding-left: 30px;
+  font-weight: 500;
+  text-align: left;
+}
+.testimonial-top img {
+  width: 100px;
+  margin-top: -40px;
+}
+.testimonial-top h3 span {
+  display: inline-block;
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 70%;
+  color: #757575;
+}
+.testimonial-top {
+  padding: 30px 0;
+}
+.testimonial-content {
+  color: #757575;
+}
+.testimonial-author-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 265px;
+  overflow: auto;
+  margin-top: 15px;
+  position:relative;
+}
+.testimonial-author-list h3 {
+	display: inline-block;
+	width: 70%;
+	font-size: 20px;
+	font-weight: 500;
+	padding-left: 15px;
+	float: right;
+}
+.testimonial-author-list li a {
+  color: #474747;
+}
+.testimonial-author-list h3 span {
+  font-size: 70%;
+  padding-top: 10px;
+  display: inline-block;
+}
+.testimonial-author-list img {
+	width: 30%;
+	height: 75px;
+	border-radius: 50%;
+	margin-top: -15px;
+}
+.testimonial-author-list li {
+  padding: 15px 0;
+}
+.testimonial-author-list.ps > .ps__scrollbar-y-rail {
+	opacity: 1;
+}
+
+
+.testimonial-wrapper {
+  position: relative;
+}
+.testimonial-left-title {
+  text-transform: uppercase;
+  color: #ECEBEB;
+  z-index: 1;
+  font-size: 50px;
+  position: absolute;
+  transform: rotate(-90deg);
+  bottom: 60px;
+  left: -200px;
+}
+.testimonial-left-title:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  height: 2px;
+  background: #ECEBEB;
+  z-index: -1;
+  width: 450px;
+}
+.testimonial-left-title span {
+  background: #fff;
+  display: inline-block;
+  z-index: 2;
+}
+
+
+
+
+
