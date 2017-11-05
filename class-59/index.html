@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>কক্লাশ ৫৯ – গুগল ম‍্যাপ ~ পর্ব – ২ (কাস্টমাইজ, জাভাস্ক্রীপ্ট অপশনের ব‍্যবহার)</title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        
+    </head>
+    <body>
+		<div class="section-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title text-center">
+							<h2>My Second Google Map</h2>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div id="googleMap" style="width:100%;height:400px;"></div>
+						<script>
+							function myMap() {
+							var mapOptions = {
+								center:new google.maps.LatLng(23.90317,89.1288885),
+								zoom:15,
+								scrollwheel: false,
+								styles: [
+											{
+											  elementType: 'geometry',
+											  stylers: [{color: '#f4f4f4'}]
+											},
+											{ elementType: 'labels.text.fill',
+											  stylers: [{color: '#696969'}]
+											},
+											{
+											  featureType: 'administrative.locality',
+											  elementType: 'labels.text.fill',
+											  stylers: [{color: '#ffffff'}]
+											},
+											{
+											  featureType: 'road',
+											  elementType: 'geometry',
+											  stylers: [{color: '#ffffff'}]
+											},
+											{
+											  featureType: 'water',
+											  elementType: 'geometry',
+											  stylers: [{color: '#EDEDED'}]
+											},
+											{
+											  featureType: 'poi',
+											  elementType: 'labels.text.fill',
+											  stylers: [{color: '#858585'}]
+											},
+											{
+											  featureType: 'road.highway',
+											  elementType: 'geometry',
+											  stylers: [{color: '#ffffff'}]
+											},
+
+
+
+										]
+
+							};
+							var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions );
+							}
+							
+							
+						</script>
+						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWzBnoKfBe5QvhXBOrxXT1JTp1OHG5e38&callback=myMap"></script>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		
+
+		
+		
+        
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
