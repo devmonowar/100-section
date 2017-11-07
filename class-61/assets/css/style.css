@@ -1,0 +1,111 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {
+    padding: 50px 0;
+}
+.section-padding.dark-bg {
+    background: #343950;
+    color: #fff;
+	margin-bottom:150px;
+	padding-bottom:0;
+}
+
+h1.section-title {
+    font-size: 60px;
+    font-weight: 400;
+	margin-bottom: 60px;
+}
+.section-disc {
+    color: #9395A3;
+    padding: 10px;
+    font-size: 120%;
+	line-height:2;
+}
+
+.section-disc strong {
+    color: #fff;
+}
+.map{
+    height: 500px;
+    width: 100%;
+    margin-bottom: -70px;
+    box-shadow: 0 0 10px #111;
+}
+.map-bg{
+    background-color: #343950;
+    color: #fff
+}
+ul.location-direction {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	margin-top:30px;
+	margin-left:50px;
+	margin-bottom:20px;
+}
+
+ul.location-direction li {
+    position: relative;
+    margin-bottom: 25px;
+    display: block;
+    padding-bottom: 25px;
+}
+ul.location-direction li p {
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: .5;
+}
+
+ul.location-direction li:after {
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 1px;
+    background: #fff;
+	left:0;
+	bottom:0;
+	opacity:.3
+}
+ul.location-direction li h3 {
+    color: #CE9636;
+    font-size: 34px;
+}
+
+ul.location-direction li h3 span {
+    font-size: 20px;
+}
+ul.location-direction li:last-child:after {
+    display: none;
+}
+ul.location-direction
+ li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.section-padding.dark-bg-2 {
+    background: #ddd;
+}
+
+
+
