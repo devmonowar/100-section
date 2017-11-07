@@ -13,7 +13,7 @@
 					  })
 					  .marker({
 						position: center,
-						icon: 'http://monowar.tk/class-60/assets/img/map-marker.png'
+						icon: 'http://monowar.tk/class-61/assets/img/map-marker.png'
 					  })
 					
     });
