@@ -1,0 +1,126 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,500i,700,900');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+
+.single-projects-item {background-image:url(../img/bg1.jpg)}
+.projects-bg-2 {background-image:url(../img/bg2.jpg)}
+.projects-bg-3 {background-image:url(../img/bg3.jpg)}
+.projects-bg-4 {background-image:url(../img/bg4.jpg)}
+.projects-bg-5 {background-image:url(../img/bg5.jpg)}
+.projects-bg-6 {background-image:url(../img/bg6.jpg)}
+.projects-bg-7 {background-image:url(../img/bg7.jpg)}
+.projects-bg-8 {background-image:url(../img/bg8.jpg)}
+.projects-bg-9 {background-image:url(../img/bg9.jpg)}
+
+.section-padding {
+    padding: 80px 0;
+}
+ul.projects-filter {
+    margin: 0 0 40px 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+ul.projects-filter li {
+    display: inline-block;
+    margin-right: 15px;
+    border-bottom: 2px solid transparent;
+	cursor:pointer;
+}
+ul.projects-filter li.active {
+    border-bottom: 2px solid #222;
+}
+.single-projects-item {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    display: table;
+    z-index: 1;
+    position: relative;
+    background-position: center;
+    background-color: #ccc;
+    background-size: cover;
+}
+.single-projects-item:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    left: 0;
+    top: 0;
+    z-index: -1;
+	opacity:0;
+	transition:.4s;
+}
+.projects-hover {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    padding: 20px;
+    color: #454545;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+	opacity:0;
+	visibility:hidden;
+	transition:.4s;
+	transform:scale(.5)
+}
+.projects-hover:before, .projects-hover:after {
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 70px;
+    z-index: 2;
+}
+.projects-hover:before {
+    right: 0;
+    top: 0;
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+}
+.projects-hover:after {
+    left: 0;
+    bottom: 0;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.projects-hover h2 {
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 1.6;
+}
+.projects-hover p:last-child {
+    margin: 0;
+}
+.single-projects-item:hover .projects-hover {
+	opacity:1;
+	visibility:visible;
+	transform:scale(1)	
+}
+.single-projects-item:hover:after {
+	opacity:.7;
+}
+
+
+
