@@ -1,0 +1,77 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,500i,700,900');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+.service-list {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.single-service-box {
+    padding: 7%;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #535353;
+	transition:.4s;
+	padding:12% 7%;
+}
+.service-list .col-md-4 {
+    padding: 0;
+}
+.service-list .row {
+    margin: 0;
+}
+.single-service-box h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.single-service-box p {
+    font-size: 20px;
+    line-height: 2;
+}
+.service-icon {
+    color: #E2E2E2;
+    font-size: 40px;
+	transition:.4s;
+	margin-bottom:15px;
+}
+.single-service-box:hover {
+    box-shadow: 0 30px 70px #a9a9a9;
+}
+.single-service-box:hover .service-icon {
+    color: #CD2122;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
