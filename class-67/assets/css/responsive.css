@@ -1,0 +1,77 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .logo h2 {color: red;}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .logo h2 {color: green;}
+ .left-side, .right-side, .simpul-content {
+    width: 100%;
+    height: auto;
+    position: relative;
+	padding:5px;
+	margin-left:0;
+}
+.right-side-wrap, .simpul-content {
+    padding-left: 0%;
+    text-align: center;
+	padding:50px 5px;
+}
+ul.mainmenu li {
+    display: inline-block;
+}
+
+ul.mainmenu li a {
+    padding: 15px;
+}
+.sidebar-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 99;
+    background: #333;
+	margin-left:0;
+}
+
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .logo h2 {color: blue;}
+ .left-side, .right-side, .simpul-content {
+    width: 100%;
+    height: auto;
+    position: relative;
+	padding:5px;
+	margin-left:0;
+}
+.right-side-wrap, .simpul-content {
+    padding-left: 0%;
+    text-align: center;
+	padding:50px 5px;
+}
+ul.mainmenu li {
+    display: inline-block;
+}
+
+ul.mainmenu li a {
+    padding: 15px;
+}
+.sidebar-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 99;
+    background: #333;
+	margin-left:0;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
