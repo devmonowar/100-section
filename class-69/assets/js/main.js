@@ -20,7 +20,7 @@
 			nav:true,
 			navText:["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"]
 			
-		})
+		});
 		$('.product-promotion').owlCarousel({
 			items:1,
 			loop:true,
@@ -28,7 +28,15 @@
 			autoplaySpeed:1000,
 			nav:false,
 			
-		})
+		});
+		
+		
+		
+
+        var footerHeight = $(".sticky-footer").height();
+        $(".site-main-wrap").css('margin-bottom', footerHeight + "px");
+		
+		
 
     });
 
