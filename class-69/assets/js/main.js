@@ -20,7 +20,7 @@
 			nav:true,
 			navText:["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"]
 			
-		});
+		})
 		$('.product-promotion').owlCarousel({
 			items:1,
 			loop:true,
@@ -28,13 +28,20 @@
 			autoplaySpeed:1000,
 			nav:false,
 			
-		});
+		})
+		
+		        $(".menu-trigger").click(function(){
+				$(".off-canvas-menu, .off-canvas-overlay").addClass("active");
+				});
+		
+		        $(".fa-close, .off-canvas-overlay").click(function(){
+				$(".off-canvas-menu, .off-canvas-overlay").removeClass("active");
+				});
 		
 		
-		
-
-        var footerHeight = $(".sticky-footer").height();
+		var footerHeight = $(".sticky-footer").height();
         $(".site-main-wrap").css('margin-bottom', footerHeight + "px");
+	
 		
 		
 
