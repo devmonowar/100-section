@@ -1,0 +1,80 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,500i,700,900');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+    padding: 80px 0px
+}
+.single-feature-item{
+    position: relative;
+}
+.feature-bg{
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    bottom: -50px
+}
+.feature-1 .feature-bg{background-image: url(../img/1.jpg);}
+.feature-2 .feature-bg{background-image: url(../img/3.jpg);}
+.feature-3 .feature-bg{background-image: url(../img/2.jpg);}
+.feature-4 .feature-bg{background-image: url(../img/4.jpg);}
+
+.single-feature-item-text{
+    z-index: 2;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px #ddd;
+    position: relative;
+    padding-top: 60px;
+    padding-left: 100px;
+	border-bottom:4px solid #FE5E3A;
+}
+.feature-2 .single-feature-item-text {
+	border-bottom-color: #2BC893;
+}
+.feature-3 .single-feature-item-text {
+	border-bottom-color: #B07AF2;
+}
+.feature-4 .single-feature-item-text {
+	border-bottom-color: #FFBB50;
+}
+.no {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    font-size: 50px;
+    color: #EFEFEF;
+    line-height: 1;
+}
+
+.no:after {
+    position: absolute;
+    content: "";
+    left: -10px;
+    top: 40px;
+    width: 106px;
+    height: 1px;
+    background: #ddd;
+    transform: rotate(-233deg);
