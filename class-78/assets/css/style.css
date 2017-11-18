@@ -1,0 +1,103 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Roboto:300,300i,400,500,700,900');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+
+.section-padding{
+    padding: 80px 0px
+}
+.food-box-info h3{
+    font-family:'Herr Von Muellerhoff',cursive;
+    font-size:55px;
+    transition: .1s;
+    -webkit-transition: .1s;
+}
+.food-box-bg{
+    height: 350px;
+    background-size:cover;
+    background-position: center;
+    background-color: #ddd;
+}
+.food-box-bg, .food-box-bg3{
+    background-image: url(../img/food-box-bg1.jpg);
+}
+.food-box-bg2{
+    background-image: url(../img/food-box-bg2.jpg);
+}
+.single-food-box {
+    margin: 0px -15px;
+}
+.single-food-box:hover .food-box-info {
+    background: #D19735;
+    color:#fff
+}
+.single-food-box:hover .food-box-info h3 {
+    color:yellow
+}
+.single-food-box:hover .food-box-info h2 {
+    color:#fff
+}
+.single-food-box:hover .food-box-info a.border-btn{
+    color:#fff;
+    border-color:#fff
+}
+.food-box-info {
+    background: #f3f4f4;
+    margin-top: -100px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top: 4px solid #D19735;
+    -webkit-transition:.3s;
+    transition:.3s;
+}
+
+.food-box-info h2 {
+    text-transform: uppercase;
+    color: #D19735;
+    letter-spacing: 2px;
+    font-size: 28px;
+    font-weight:400;
+    transition:.3s;
+    -webkit-transition:.3s;
+}
+
+.price span {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+a.border-btn {
+    color: #D19735;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid #D19735;
+    padding: 10px 20px;
+    display: inline-block; 
+    transition:.3s;
+    -webkit-transition:.3s;
+}
