@@ -1,0 +1,86 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,500i,700,900');
+a:focus, input { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-wrapper {
+	background-image:url(../img/compressed-img.jpg);
+    display: table;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background-position: center;
+    background-color: #666;
+    background-size: cover;
+}
+.section-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100vh;
+}
+.section-wrapper:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    opacity: .5;
+}
+.newsletter-area h2 {
+    font-size: 45px;
+}
+.newsletter-area {
+    font-size: 18px;
+}
+.newsletter-area input {
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+	color:#333;
+}
+.newsletter-area input[type=email] {
+	text-align:center;
+	margin-bottom:10px;
+}
+.newsletter-area input[type=submit] {
+	 color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+	transition:.4s;
+}
+.newsletter-area input[type=submit]:hover {
+	background:green;
+}
+
+
+
+
+
+
+
+
+
+
+
