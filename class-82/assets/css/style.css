@@ -1,0 +1,124 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,500i,700,900');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.feature-bg {background-image: url(../img/img-1.jpg);}
+.feature-bg-2 {background-image: url(../img/feature-2.jpg);}
+.feature-bg-3 {background-image: url(../img/fruits.jpg);}
+
+.section-padding {
+  padding: 40px 0;
+}
+.feature-project-wrapper {
+  position: relative;
+}
+.feature-project-wrapper h2 {
+  position: absolute;
+  right: 0;
+  width: 35%;
+  font-weight: 300;
+  font-size: 28px;
+  top: 60px;
+}
+.feature-project-wrapper h2 span {
+  display: block;
+  font-weight: 500;
+  font-size: 35px;
+}
+.feature-projects {
+  position: relative;
+}
+.single-feature-projects {
+  text-align: right;
+  position: relative;
+}
+.feature-content {
+  background: #FC6223;
+  color: #fff;
+  width: 60%;
+  text-align: left;
+  display: inline-block;
+  padding-left: 270px;
+  padding-right: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 180px;
+}
+.feature-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 80%;
+  border: 15px solid #fff;
+  margin-left: -15px;
+  background-size: cover;
+  background-color: #ccc;
+  background-position: center;
+}
+.feature-content h3 {
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.feature-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+.boxed-btn {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 30px;
+  display: inline-block;
+  transition: .3s;
+}
+.boxed-btn:hover {
+  color: #fff;
+  opacity: .8;
+}
+.owl-carousel .single-feature-projects {
+  overflow: hidden;
+}
+.feature-projects .owl-dots .owl-dot:nth-child(1):before {content: "01";}
+.feature-projects .owl-dots .owl-dot:nth-child(2):before {content: "02";}
+.feature-projects .owl-dots .owl-dot:nth-child(3):before {content: "03";}
+.feature-projects .owl-dots .owl-dot:nth-child(4):before {content: "04";}
+.feature-projects .owl-dots .owl-dot:nth-child(5):before {content: "05";}
+.feature-projects .owl-dots .owl-dot:nth-child(6):before {content: "06";}
+.feature-projects .owl-dots .owl-dot:nth-child(7):before {content: "07";}
+.feature-projects .owl-dots .owl-dot:nth-child(8):before {content: "08";}
+.feature-projects .owl-dots .owl-dot:nth-child(9):before {content: "09";}
+
+.feature-projects .owl-dots .owl-dot {
+  font-size: 30px;
+  font-weight: 300;
+  display: inline-block;
+  margin-right: 20px;
+  opacity: .8;
+}
+.feature-projects .owl-dots .owl-dot.active {
+  color: #FC6223;
+}
+.feature-projects .owl-dots {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
