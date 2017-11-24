@@ -1,0 +1,109 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,500i,700,900');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+	padding:80px 0;
+}
+.styled-bg-1{
+    background-image: url(../img/1.jpg);
+}
+.styled-bg-2{
+    background-image: url(../img/2.jpg);
+}
+.styled-bg {
+    height: 500px;
+    margin-left: -13%;
+    position: relative;
+    margin-bottom: 150px;
+}
+.styled-bg-inner {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+.styled-bg:after {
+    position: absolute;
+    content: "";
+    left: -30px;
+    top: 30px;
+    background: #F3F3F3;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.styled-bg:before {
+    position: absolute;
+    content: "";
+    bottom: -65px;
+    right: 30%;
+    height: 100px;
+    width: 2px;
+    background: #C79E5E;
+}
+.special-section-title {
+    background: #fff;
+    margin-left: -200px;
+    padding: 50px;
+    font-size: 65px;
+    margin-top: 60px;
+    z-index: 4;
+    position: relative;
+}
+.inline-btn{
+    font-weight: 700;
+    position: relative;
+    transition: .3s;
+    color:#333
+}
+.inline-btn:hover {
+    color: #C79E5E
+}
+.inline-btn:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 100%;
+    background-color: #C79E5E
+}
+.right-side .styled-bg {
+    margin-left: 0;
+    margin-right: -10%;
+}
+
+.right-side .special-section-title {
+    margin-left: 0;
+    margin-right: -200px;
+    padding-left: 0px
+}
+
+.right-side .styled-bg:before {
+    right: auto;
+    left: 30%;
+}
+
+.right-side .styled-bg:after {
+    left: auto;
+    right: -30px;
+}
