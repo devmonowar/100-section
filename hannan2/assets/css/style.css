@@ -1,0 +1,100 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+  color: 333;
+}
+body {
+  color: #474747;
+  font-size: 15px;
+  line-height: 1.7;
+
+}
+a:hover { text-decoration: none }
+
+
+.product-section {
+  padding: 80px 0;
+}
+.single-product-item {
+    text-align: center;
+	border:1px solid #EBECEF;
+	padding: 50px 40px;
+	border-radius:10px;
+	margin:30px 0;
+	transition:.3s;
+}
+
+.single-product-item p {
+	transition:.3s;
+}
+.single-product-item img {
+	max-width: 160px;
+    margin: 0 auto;
+	transition:.3s;
+	min-height:80px;
+}
+.product-meta {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.product-meta h2 {
+	color: #333;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	font-weight:400;
+	font-size:25px;
+}
+.product-meta span {
+	color: #9A9C9E;
+	font-size: 14px;
+	display:block;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    font-size: 20px;
+    opacity: 1;
+    color: #4D4D4D;
+}
+.slick-prev {
+    left: -60px;
+	transition:.4s;
+}
+.slick-next {
+    right: -60px;
+	transition:.4s;
+}
+.product-section:hover .slick-prev {
+    left: -20px;
+}
+
+.product-section:hover .slick-next {
+    right: -20px;
+}
+.single-product-item.slick-current.slick-active {
+	margin:0px;
+	border:1px solid #F59D8B;
+}
+.single-product-item.slick-current.slick-active img {
+		
+		margin-top:30px;
+}
+.single-product-item.slick-current.slick-active p {
+		margin-bottom:30px;
+}
+
+
+
+
