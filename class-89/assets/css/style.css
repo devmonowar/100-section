@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size:15px;
+	color:#333;
+}
+a:hover {
+	text-decoration:none;
+	transition: .3s;
+}
+
+.header-top-area {
+    background-color: #0b0b0b;
+    color: #f5f3f3;
+    padding: 13px 0;
+}
+
+.header-top-area .top-address {
+    padding-top: 5px;
+    display: inline-block;
+}
+.header-top-area i.fa {
+    color: #fc721e;
+    padding-right: 7px;
+}
+.social-link i.fa {
+    color: #f5f3f3;
+    padding-right: 0;
+}
+.social-link a {
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    text-align: center;
+    line-height: 33px;
+    border: 1px solid #787777;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.social-link a:hover {
+	background: #fc721e;
+    border: 1px solid #fc721e;
+}
+.header-top-area i.fa-phone, .header-top-area .social-link {
+    padding-left: 25px;
+}
+
+.site-logo {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0;
+    padding: 15px 20px;
+    border: 1px solid;
+	display:inline-block;
+}
+
+.header-area {
+	padding:18px 0;
+}
+.header-area, .header-area a {
+    color: #0b0b0b;
+}
+.mainmenu {
+}
+.mainmenu ul {
+    margin: 0 -15px 0 0;
+    padding: 4px 0;
+    list-style: none;
+}
+
+.mainmenu  ul li {
+    display: inline-block;
+}
+
+.mainmenu  ul li a {
+    padding: 12px 16px;
+    border: 1px solid transparent;
+    display: block;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.mainmenu  ul li:hover > a {
+    border: 1px solid #fc721e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
