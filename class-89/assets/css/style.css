@@ -53,6 +53,7 @@ a:hover {
     padding: 15px 20px;
     border: 1px solid;
 	display:inline-block;
+	font-weight:700;
 }
 
 .header-area {
